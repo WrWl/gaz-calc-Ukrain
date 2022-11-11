@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+          <form action="" class="form">
+            <div class="benefitsContainer">
+            <p>Оберіть тип пільг:</p>
+            <input type="radio" name="typeOfBenefits" value="Without">Без
+            <input type="radio" name="typeOfBenefits" value="With">Пільги
+            </div>
+            <div class="deviceContainer">
+                <p>Оберіть прилади:</p>
+                <input type="radio" name="typeOfDevices" value="6">плита газова з центральним гарячим водопостачанням
+                <input type="radio" name="typeOfDevices" value="9">плита газова без центрального гарячого водопостачання
+                <input type="radio" name="typeOfDevices" value="18">плита газова і газова колонка
+            </div>
+            <div class="houseContainer">
+                <p>Оберіть тип дому:</p>
+                <input type="radio" name="typeOfHouse" value="0.982">Дім
+                <input type="radio" name="typeOfHouse" value="0.465">Квартира
+            </div>
+            <div>
+                <input type="text" class="numberOfPeople">введіть кількість людей
+            </div>
+            <div>
+                <input type="text" class="area">введіть площу у м2
+            </div>
+            <div>
+                <input type="text" class="benefitDiscount">введіть пільгову знижку без символу "%"
+            </div>
+            <div>
+                <input type="text" class="price">введіть ціну за газ
+            </div>
+            <textarea name="" id="" cols="10" rows="2" class="totalPrice" readonly="readonly"></textarea>
+            <input type="submit">
+          </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
